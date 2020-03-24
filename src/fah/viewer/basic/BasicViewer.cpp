@@ -132,7 +132,7 @@ void BasicViewer::setMaterial(const Atom &atom) {
     {0.20, 0.20, 0.20, 1.00}, // Nitrogen
     {0.20, 0.20, 0.20, 1.00}, // Oxygen
     {0.20, 0.20, 0.20, 1.00}, // Sulfur
-    {0.25, 0.50, 0.25, 1.00}, // Heavy atoms
+    {0.25, 0.50, 0.25, 0.00}, // Heavy atoms
   };
 
   static const float material[][4] = {
@@ -141,7 +141,7 @@ void BasicViewer::setMaterial(const Atom &atom) {
     {0.10, 0.10, 0.80, 1.00}, // blue
     {0.80, 0.15, 0.15, 1.00}, // red
     {0.60, 0.60, 0.15, 1.00}, // yellow
-    {0.50, 0.00, 0.60, 1.00}, // purple
+    {0.50, 0.00, 0.60, 0.00}, // purple
   };
 
   int i;
